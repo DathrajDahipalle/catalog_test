@@ -54,10 +54,10 @@ function findConstantTerm(inputFile) {
 }
 
 try {
-  const constantTerm1 = findConstantTerm("testcase1.json");
+  const constantTerm1 = findConstantTerm("tc1.json");
   console.log(`Secret (Test Case 1): ${constantTerm1}`);
 
-  const constantTerm2 = findConstantTerm("testcase2.json");
+  const constantTerm2 = findConstantTerm("tc2.json");
   console.log(`Secret (Test Case 2): ${constantTerm2}`);
 } catch (error) {
   console.error(`Error: ${error.message}`);
